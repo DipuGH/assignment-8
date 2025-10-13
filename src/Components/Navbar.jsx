@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../public/assets/logo.png'; // ✅ Correct import
-import githubIcon from '../../public/assets/logo.png'; // ✅ Correct import
+import githubIcon from '../../public/assets//git.jpg'; // ✅ Correct import
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); // 🔄 Toggle state
@@ -76,7 +76,7 @@ const Navbar = () => {
           <a href="/apps" className="block text-sm text-gray-800 hover:text-purple-600">Apps</a>
           <a href="/installation" className="block text-sm text-gray-800 hover:text-purple-600">Installation</a>
           <a
-            href="https://github.com"
+            href="https://github.com/DipuGH/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-purple-500 hover:bg-purple-600 text-white text-sm px-4 py-2 rounded"
