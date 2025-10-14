@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/4T3mR8S/facebook.png",
+    "image": "https://i.postimg.cc/gcNcpscd/Facebook-Icons.png",
     "title": "Facebook",
     "companyName": "Meta Platforms Inc.",
     "description": "Connect with friends, share updates, photos, and join communities that matter to you.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/Ns9YbDg/instagram.png",
+    "image": "https://i.postimg.cc/9XJ9kyvT/download.jpg",
     "title": "Instagram",
     "companyName": "Meta Platforms Inc.",
     "description": "Share photos, reels, and stories with your friends and followers across the globe.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/0Kprb90/whatsapp.png",
+    "image": "https://i.postimg.cc/Zqdg7bn9/Whatsapp.jpg",
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms Inc.",
     "description": "Free, fast, and secure messaging and calling app available worldwide.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/VYvQ2Br/youtube.png",
+    "image": "https://i.postimg.cc/mgc6kLQj/YouTube.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "description": "Watch, upload, and share videos with the world’s largest video platform.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/gmM0L7k/tiktok.png",
+    "image": "https://i.postimg.cc/kG1fMzDX/TikTok.png",
     "title": "TikTok",
     "companyName": "ByteDance",
     "description": "Create, discover, and share short videos that entertain and inspire.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/XCCJ3jq/twitter.png",
+    "image": "https://i.postimg.cc/qvhp8CfG/X.png",
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "description": "See what’s happening around the world in real-time conversations.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/xGS1Tkg/snapchat.png",
+    "image": "https://i.postimg.cc/VNW9LpHK/Snapchat.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "description": "Share your moments instantly with AR filters, chat, and stories.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/zZThK7V/linkedin.png",
+    "image": "https://i.postimg.cc/90KZnhzs/LinkedIn.png",
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "description": "Grow your professional network, apply for jobs, and connect with experts.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/F8BdfXL/gmail.png",
+    "image": "https://i.postimg.cc/t40FdpKc/Gmail.png",
     "title": "Gmail",
     "companyName": "Google LLC",
     "description": "Secure, smart, and organized email for personal and professional use.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/zrV72Th/google-maps.png",
+    "image": "https://i.postimg.cc/q7wndnzP/Google-Maps.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "description": "Find directions, explore places, and navigate with live traffic updates.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co/FzPQgb2/netflix.png",
+    "image": "https://i.postimg.cc/zD6h5qG8/Netflix.jpg",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "description": "Watch TV shows, movies, and documentaries anytime, anywhere.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://i.ibb.co/FXcZJGc/spotify.png",
+    "image": "https://i.postimg.cc/hjwXS0gQ/Spotify.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "description": "Stream millions of songs and podcasts for free or with premium.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://i.ibb.co/28MCpV4/telegram.png",
+    "image": "https://i.postimg.cc/K8y05dwT/Telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "description": "Cloud-based messaging with privacy and speed at its core.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.ibb.co/6Nrf6BZ/zoom.png",
+    "image": "https://i.postimg.cc/4dM5HMpz/Zoom-Cloud-Meetings.jpg",
     "title": "Zoom Cloud Meetings",
     "companyName": "Zoom Video Communications",
     "description": "Video meetings, chat, and webinars for seamless online communication.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "https://i.ibb.co/2SvsPbf/pinterest.png",
+    "image": "https://i.postimg.cc/Hk299jQW/Pinterest.png",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "description": "Discover ideas for cooking, home decor, style, and more inspiration.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.ibb.co/zRbVyJm/amazon.png",
+    "image": "https://i.postimg.cc/vH7rGD2x/Amazon-Shopping.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "description": "Shop millions of products, track orders, and enjoy fast delivery.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "https://i.ibb.co/fCdBYnK/paypal.png",
+    "image": "https://i.postimg.cc/LsWfxPh8/PayPal.png",
     "title": "PayPal",
     "companyName": "PayPal Inc.",
     "description": "Send and receive money securely, shop online, and manage payments easily.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "https://i.ibb.co/Sycb2vz/reddit.png",
+    "image": "https://i.postimg.cc/gc8RKnpp/Reddit.jpg",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "description": "Join communities, discuss topics, and explore the best of the internet.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://i.ibb.co/JxgW4sN/microsoft-teams.png",
+    "image": "https://i.postimg.cc/251LL5G0/Microsoft-Teams.jpg",
     "title": "Microsoft Teams",
     "companyName": "Microsoft Corporation",
     "description": "Collaborate through chat, meetings, and file sharing all in one place.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "https://i.ibb.co/ftk5fYQ/discord.png",
+    "image": "https://i.postimg.cc/cCBvGt1v/Discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "description": "Voice, video, and text chat for friends, communities, and gaming.",

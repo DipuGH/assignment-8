@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../public/assets/logo.png'; // ✅ Correct import
 import githubIcon from '../../public/assets//git.jpg'; // ✅ Correct import
 
@@ -17,9 +18,11 @@ const Navbar = () => {
 
         {/* Center: Navigation Links (desktop only) */}
         <div className="hidden md:flex space-x-6">
-          <a href="/" className="text-sm text-purple-600 underline">Home</a>
-          <a href="/apps" className="text-sm text-gray-800 hover:text-purple-600">Apps</a>
-          <a href="/installation" className="text-sm text-gray-800 hover:text-purple-600">Installation</a>
+          
+          <Link to="/" className="text-sm text-gray-800 hover:text-purple-600">Home</Link>
+          <Link to="/Apps" className="text-sm text-gray-800 hover:text-purple-600">Apps</Link>
+          <Link to="/Installation" className="text-sm text-gray-800 hover:text-purple-600">Installation</Link>
+          
         </div>
 
         {/* Right: Contribute Button (desktop only) */}

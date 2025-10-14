@@ -5,7 +5,7 @@ import TrendingApps from './TrendingApps';
 
 const Home = () => {
     return (
-        <section className="bg-gray-50 py-16 text-center font-sans">
+        <section className="bg-gray-50 pt-15 text-center font-sans">
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
                 We Build <span className="text-purple-600">Productive</span> Apps
@@ -21,24 +21,30 @@ const Home = () => {
             {/* Store buttons */}
             <div className="mt-6 flex justify-center gap-4 flex-wrap">
                 <a
-                    href="#"
-                    className="bg-white border border-gray-200 px-4 py-2 rounded shadow-sm hover:shadow-md transition"
+                    href="https://play.google.com/store/apps?hl=en"
+                    target="_blank"
+                    className="flex gap-2 bg-white border border-gray-200 px-2 py-2 rounded shadow-sm hover:shadow-md transition"
                 >
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                        alt="Google Play"
-                        className="h-10"
+                        src="https://i.postimg.cc/4dBSnBxF/Play-Store.png"
+                        alt="App Store"
+                        className="w-5 h-5"
                     />
+                    {/* Text */}
+                    <span className="text-gray-800 font-medium text-sm">Play Store</span>
                 </a>
                 <a
-                    href="#"
-                    className="bg-white border border-gray-200 px-4 py-2 rounded shadow-sm hover:shadow-md transition"
+                    href="https://www.apple.com/store"
+                    target="_blank"
+                    className="flex gap-2 bg-white border border-gray-200 px-4 py-2 rounded shadow-sm hover:shadow-md transition"
                 >
                     <img
-                        src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                        src="https://i.postimg.cc/CKZTyyM8/Apple-Store.jpg"
                         alt="App Store"
-                        className="h-10"
+                        className="w-5 h-5"
                     />
+                    {/* Text */}
+                    <span className="text-gray-800 font-medium text-sm">App Store</span>
                 </a>
             </div>
 
@@ -56,7 +62,7 @@ const Home = () => {
                 <TrendingApps></TrendingApps>
             </div>
         </section>
-        
+
     );
 };
 

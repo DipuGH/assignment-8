@@ -3,7 +3,7 @@ import logo from '../../public/assets/logo.png'; // Adjust path as needed
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 px-6 py-8 text-sm font-sans">
+    <footer className="bg-white border-t border-gray-200 py-8 text-sm font-sans">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
         {/* Left: Logo and Brand */}
         <div className="flex items-center space-x-2">
