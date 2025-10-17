@@ -77,9 +77,9 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden mt-4 space-y-2">
-          <a href="/" className="block text-sm text-purple-600 underline">Home</a>
-          <a href="/apps" className="block text-sm text-gray-800 hover:text-purple-600">Apps</a>
-          <a href="/installation" className="block text-sm text-gray-800 hover:text-purple-600">Installation</a>
+          <Link to="/" className="block text-sm text-gray-800 hover:text-purple-600 ">Home</Link>
+          <Link to="/Apps" className="block text-sm text-gray-800 hover:text-purple-600">Apps</Link>
+          <Link to="/Installation" className="block text-sm text-gray-800 hover:text-purple-600">Installation</Link>
           <a
             href="https://github.com/DipuGH/"
             target="_blank"
