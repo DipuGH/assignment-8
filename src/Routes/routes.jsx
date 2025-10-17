@@ -11,6 +11,7 @@ import Installation from '../Pages/Installation';
 import AllApplications from '../Pages/AllApplications';
 import InstalledApps from '../Pages/Installation';
 
+
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -35,6 +36,7 @@ export const router = createBrowserRouter([
             {
                 path:"/Installation",
                 Component: InstalledApps,
+                
             }
 
         ]

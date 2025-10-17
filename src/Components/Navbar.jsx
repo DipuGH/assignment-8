@@ -11,10 +11,12 @@ const Navbar = () => {
       {/* Top section: Logo, Links (desktop), Toggle button (mobile) */}
       <div className="flex items-center justify-between">
         {/* Left: Logo and brand name */}
-        <div className="flex items-center space-x-2">
+        <a href="/">
+          <div className="flex items-center space-x-2">
           <img src={logo} alt="Hero.IO Logo" className="h-7" />
           <span className="text-purple-600 font-semibold">HERO.IO</span>
-        </div>
+        </div></a>
+        
 
         {/* Center: Navigation Links (desktop only) */}
         <div className="hidden md:flex space-x-6">

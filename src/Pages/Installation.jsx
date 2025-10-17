@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaDownload, FaStar } from "react-icons/fa";
+import toast from "react-hot-toast";
 
 const InstalledApps = () => {
   const [installedApps, setInstalledApps] = useState([]);
@@ -15,6 +16,15 @@ const InstalledApps = () => {
     const updatedApps = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updatedApps);
     localStorage.setItem("installedApps", JSON.stringify(updatedApps));
+
+    // ✅ Show Toast Notification
+    toast.success("App uninstalled successfully!", {
+      duration: 2000,
+      style: {
+        background: "#10B981",
+        color: "#fff",
+      },
+    });
   };
 
   return (
