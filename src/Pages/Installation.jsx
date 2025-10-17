@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 
 const InstalledApps = () => {
   const [installedApps, setInstalledApps] = useState([]);
+  const [sortOrder, setSortOrder] = useState(""); // New state for sorting
 
   // ✅ Load installed apps from localStorage
   useEffect(() => {
@@ -17,7 +18,6 @@ const InstalledApps = () => {
     setInstalledApps(updatedApps);
     localStorage.setItem("installedApps", JSON.stringify(updatedApps));
 
-    // ✅ Show Toast Notification
     toast.success("App uninstalled successfully!", {
       duration: 2000,
       style: {
@@ -25,6 +25,17 @@ const InstalledApps = () => {
         color: "#fff",
       },
     });
+  };
+
+  // ✅ Handle Sorting
+  const handleSort = (order) => {
+    setSortOrder(order);
+    const sortedApps = [...installedApps].sort((a, b) => {
+      const aDownloads = a.downloads || 0;
+      const bDownloads = b.downloads || 0;
+      return order === "high-low" ? bDownloads - aDownloads : aDownloads - bDownloads;
+    });
+    setInstalledApps(sortedApps);
   };
 
   return (
@@ -39,14 +50,20 @@ const InstalledApps = () => {
         </p>
       </div>
 
-      {/* App Count */}
+      {/* App Count and Sort Dropdown */}
       <div className="flex justify-between items-center mb-6">
         <p className="text-sm font-semibold text-gray-700">
-          {installedApps.length} Apps Found
+          ({installedApps.length}) Apps Found
         </p>
-        <button className="flex items-center gap-2 border border-gray-300 text-gray-700 text-sm px-3 py-1.5 rounded-md hover:bg-gray-100 transition">
-          Sort By Size
-        </button>
+        <select
+          value={sortOrder}
+          onChange={(e) => handleSort(e.target.value)}
+          className="border border-gray-300 text-gray-700 text-sm px-3 py-1.5 rounded-md hover:bg-gray-100 transition"
+        >
+          <option value="">Sort By Downloads</option>
+          <option value="high-low">High-Low</option>
+          <option value="low-high">Low-High</option>
+        </select>
       </div>
 
       {/* Installed Apps List */}
